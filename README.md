@@ -5,7 +5,7 @@
 
 ### *Sensing Your Opportunities in Space*
 
-In the very near future, asteroid mining may become one of the primary ways to succesfully fuel the outward expansion of humankind, and the continued exploration of space. With both goverment and commerical entities showing a renewed interest in space, it has become clear that the expense of bringing materials up to orbit is financially untenable for signifiacnt space-bound operataions; and so the race for identifying potential asteroids for mining, being able to analyize them, and then deploying mining equipment and/or the ability to change their orbits is heating up.
+In the very near future, asteroid mining may become one of the primary ways to successfully fuel the outward expansion of humankind, and the continued exploration of space. With both government and commercial entities showing a renewed interest in space, it has become clear that the expense of bringing materials up to orbit is financially untenable for significant space-bound operations; and so the race for identifying potential asteroids for mining, being able to analyze them, and then deploying mining equipment and/or the ability to change their orbits is heating up.
 
 In addition, the continued potential for an *Angry Asteroid*, an asteroid with the ability to cause widespread damage to the Earth and humans haunts us like never before! The same techniques that can be developed for commercial mining of an asteroid could instead be redirected to saving humankind from destruction.
 
@@ -20,11 +20,11 @@ Drawing on our team’s diverse background in design, programming, engineering, 
   4. Reusing the Dragonflys as mining operation sensor units.
   5. Then based on the composition of the asteroid, a mining rig can be set-up for extraction and local processing ([see Star-Whals Project for potential methods](https://2016.spaceappschallenge.org/challenges/solar-system/asteroid-mining/projects/ne-asteroid-mining "Star-Whals")).
 
-Team Dragonfly's methods, STL files, electronics, pictures, presentation, and in in-depth disucssion on what it will take for asteroid mining this to be succesfull (economics, sensors, etc...) is presented here in full, Open Sourced (MIT License), and available for anyone to interact with, or improve.
+Team Dragonfly's methods, STL files, electronics, pictures, presentation, and in in-depth discussion on what it will take for asteroid mining this to be successful (economics, sensors, etc...) is presented here in full, Open Sourced (MIT License), and available for anyone to interact with, or improve.
 
-The best place to start is the The 30-second video found on [YouTube] (https://link). For a more in-depth view, our presentation [PPTX (recommended)](https://github.com/DragonID/NASAAsteroidMiningChallenge2016/blob/master/Dragonfly%20Presentation.pptx?raw=true), or [PDF](https://github.com/DragonID/NASAAsteroidMiningChallenge2016/blob/master/Dragonfly%20Presentation.pdf) is the next stop. The musical score for this project is, of course, [Below the Asteroids](https://soundcloud.com/ccpgames/eve-online-below-the-asteroids).
+The best place to start is the 30-second video found on [YouTube] (https://link). For a more in-depth view, our presentation [PPTX (recommended)](https://github.com/DragonID/NASAAsteroidMiningChallenge2016/blob/master/Dragonfly%20Presentation.pptx?raw=true), or [PDF](https://github.com/DragonID/NASAAsteroidMiningChallenge2016/blob/master/Dragonfly%20Presentation.pdf) is the next stop. The musical score for this project is, of course, [Below the Asteroids](https://soundcloud.com/ccpgames/eve-online-below-the-asteroids).
 
-Comprehensive information is available in the detailed write-up below.
+Comprehensive information on the entire projectis available in the detailed write-up below. Information on the sensors and our creation of sensor prototypes is located [here](https://github.com/DragonID/NASAAsteroidMiningChallenge2016/tree/master/Circuits). The models for the satelites are located [here](). Finally, various images from this project can be found [here]().
 
     Thank you, 
     Team Dragonfly
@@ -33,7 +33,7 @@ Comprehensive information is available in the detailed write-up below.
 
 ### Scenario and Mission Statement
 
-**Scenario:** Current + 50 years in the future. This project can be created with modern technology (sensors, fuel, small sizes, etc...), but we also looked into the future for additional capabilities. One of those is the existance of a moon base, an ongoing mission to reach Mars, and an active planetary protection program. From this moon base we are able to have some basic refining and manufacturing processes in place. The moon base is dependent on materials found within space.
+**Scenario:** Current + 50 years in the future. This project can be created with modern technology (sensors, fuel, small sizes, etc...), but we also looked into the future for additional capabilities. One of those is the existence of a moon base, an ongoing mission to reach Mars, and an active planetary protection program. From this moon base we are able to have some basic refining and manufacturing processes in place. The moon base is dependent on materials found within space.
 
 **Our mission:** We will build and send Dragonflies - exploratory micro satellites - that can define more precise estimates of asteroid composition than Earth-bound techniques and send the data back to moon base to verify that the asteroid is suitable for actual mining and exploration processes. Once a suitable asteroid is identified it will be captured and retrieved for mining. The materials that are mined will be used not only to sustain the moon base, but also to support the ongoing Mission to Mars, as well as to study how best to protect the Earth from a potential asteroid impact. 
 
@@ -46,7 +46,7 @@ Important Mining Targets include:
   - Hydrogen
   - Helium
   - Nitrogen
-  - Sulfer
+  - Sulfur
   - Gold
   - Silver
   - Iron
@@ -63,7 +63,7 @@ Important Mining Targets include:
   - Uranium
   - Plutonium. 
 
-Using spectroscopy many elements from the list above have already been found in asteroids. Unfortunately the majority of asteroids, especially smaller asteroids are still unidentified and it is unclear what they are composed of. In addition, even if the elements are found, it might not be feasible to mine specific types of elements from an energy and cost perspective. To better understand what elements are available and accessible to mine you must first understand what types of asteroids are near to Earth, and which make economic sense to mine (for planteray protection, this obvisoly is not a consideration). 
+Using spectroscopy many elements from the list above have already been found in asteroids. Unfortunately, the majority of asteroids, especially smaller asteroids are still unidentified and it is unclear what they are composed of. In addition, even if the elements are found, it might not be feasible to mine specific types of elements from an energy and cost perspective. To better understand what elements are available and accessible to mine you must first understand what types of asteroids are near to Earth, and which make economic sense to mine (for planetary protection, this obviosity is not a consideration). 
 
 ### Asteroid Types
 
@@ -89,7 +89,7 @@ Now that we have identified the key type of asteroid we are interested in mining
 
 Below are the important factors for determining if an asteroid is accessible and a good target:
 
-1. Delta-V: Delta V, also known as the “speed limit of space” is an important factor to consider. deally we will look for asteroids with a low Delta-V, less than about 5 km/s. Thus less is fuel needed to rendezvous with the asteroid.
+1. Delta-V: Delta V, also known as the “speed limit of space” is an important factor to consider. Ideally we will look for asteroids with a low Delta-V, less than about 5 km/s. Thus less is fuel needed to rendezvous with the asteroid.
 2. Spin rate: Asteroids with a slower rotation are vastly preferred. Although there are not many that are considered large enough for our target list that also spin quickly.
 3. Size: Typically larger asteroids of around 300 meters across are ideal to ensure that the mission will produce enough resources to be worth the cost of the mission.
 4. Orbit: The asteroid must have an orbit that takes it near the Earth/moon often and with a low inclination to the plane.
@@ -137,12 +137,12 @@ Modular sensor package on **Dragonfly**. Will be put in and taken out as needed.
 2. **Dragonfly 3D Imaging System (D3D-IS):** The Dragonfly 3D Imaging System (D3D-IS) will be used to provide a very-high-resolution view of the asteroid as an individual camera, and when combined with its sister on another Dragonfly, it will be able to provide true-stereoscopic images that will be used for navigation and mining operations.
 3. **Dragonfly IR/Thermal/UV System (DIRecT-US):** The Dragonfly IR/Thermal/UV System (DIRecT-US) has a number of goals useful for prospecting, starting with the ability to discriminate between different possible surface properties of the asteroid, measure the thermal properties of the asteroid surface that are relevant to the characterization of the soil structure and cohesion, and those that contribute to the thermal effects, in particular the Yarkovsky Effect rotational changes (helpful in navigation and targeting of the mining operation). Additional use of the sensor during the deployment of the Javelin will allow for studying ejecta plume and in-soil temperatures and thermoclines to determine the temperature of the plume, the rate of change, and hot spot localization which may give information the mineralogical composition of the dust.
 4. **Dragonfly Gamma+Neutron+X-Ray Spectrometer Complex (DGNX-SC):** The Dragonfly Gamma+Neutron+X-Ray Spectrometer Complex (DGNX-SC) will be able to map the relative abundance of minerals, ice, and other materials to a depth of meters. The ability to map in high fidelity the subsurface composition is extremely valuable for any potential prospecting.
-5. **Dragonfly Laser Spectrometer (DLS):** The Dragonfly Laser Spectrometer (DLS) will use laser spectrometry to map biological and geochemical materials with a high precision in order to identify water, Carbon, and other geologic materials for fuel and extrication. The system will be able to link with the other satelites in the cluste in order to compound th data collection.
+5. **Dragonfly Laser Spectrometer (DLS):** The Dragonfly Laser Spectrometer (DLS) will use laser spectrometry to map biological and geochemical materials with a high precision in order to identify water, Carbon, and other geologic materials for fuel and extrication. The system will be able to link with the other satellites in the cluster in order to compound the data collection.
 6. **Dragonfly High+Low Frequency Radar Multi-Sat System (DHLR-MSS):** The Dragonfly High+Low Frequency Radar Multi-Sat System (DHLR-MSS) will obtain information on the structure of the asteroid´s outermost surface and sub-surface layers, estimate the dielectric permittivity of the sub-surface material to gain insight into the surface composition and the content of volatile compounds, and provide a full characterization of the homogeneity and extensive study of the mineralogy and porosity of the internal structure. Variations in density and a complete mapping the asteroids 3D structure (and deep layering) will also become apparent. It will take advantage of the Dragonfly cluster to create steep and deep radar reflections that can be captured by another Dragonfly that can then recombine the data for higher resolution in order to support the mining prospecting operation. For smaller asteroids, it should be able to do a complete internal map of the target. 
 
 Modular sensor package on **Javelin**. Will be put in and taken out as needed.
 
-1. **Javelin Magnetometer System (JMS):** The Javelin Magnetometer System (JMS) will sample both the core sample, and around the Javelin module after it has beeb embedded for variations in the magnetic field which will point towards materials with a metallic or magnetic content. This will help identify the mining operation needed to extract the optimal materials.
+1. **Javelin Magnetometer System (JMS):** The Javelin Magnetometer System (JMS) will sample both the core sample, and around the Javelin module after it has been embedded for variations in the magnetic field which will point towards materials with a metallic or magnetic content. This will help identify the mining operation needed to extract the optimal materials.
 2. **Javelin GC/MS System (J-GCMS):** The Javelin GC/MS System (J-GCMS) will micro-vaporize the sediment inside the core sample in order to identify the materials and their micro composition.
 3. **Javelin IR/UV/Vis (J-Spectrum):** The Javelin IR/UV/Vis (J-Spectrum) will image the core and outside soil using wide band spectroscopy in order to identify the materials to confirm the mining prospects.
 4. **Javelin Ground Penetrating Radar (JGPR):** Javelin Ground Penetrating Radar (JGPR) will use focused radar in order to prospect the core of the asteroid further than the Javelin and to further prospect for materials while within the surface of the asteroid itself.
@@ -151,13 +151,13 @@ Modular sensor package on **Javelin**. Will be put in and taken out as needed.
 
 #### Post Analysis Mining and Extraction
 
-In an ideal scenario, multiple Javelins will be deployed to a target at strategic locations and attached to either a solar sail or an Ion Engine. This will allow for slow, cheap orbital maneuviring. This can system cn then move the asteroid to a Lagrange Point, around the orbit of the moon, or in the case of a dangerous asteroid, nudge it out of a collision course. The same can be said for the Dragonflies which will monitor the mining rig.
+In an ideal scenario, multiple Javelins will be deployed to a target at strategic locations and attached to either a solar sail or an Ion Engine. This will allow for slow, cheap orbital maneuvering. This can system can then move the asteroid to a Lagrange Point, around the orbit of the moon, or in the case of a dangerous asteroid, nudge it out of a collision course. The same can be said for the Dragonflies which will monitor the mining rig.
 
 Once a NEMO is in position (or if the mining and refining are to be on site), the drilling or dust/layering rig will be put into position. An option for this was proposed by the [Star-Whals](https://2016.spaceappschallenge.org/challenges/solar-system/asteroid-mining/projects/ne-asteroid-mining).
 
 ### Project Impact
 
-Opportunity to turn threats into profit centers. Opportunity to fuel our exapnsion to Mars, and the rest of the Solar System.
+Opportunity to turn threats into profit centers. Opportunity to fuel our expansion to Mars, and the rest of the Solar System.
 
 1) Preventing disaster to Earth: Mining Asteroids can prevent future asteroid collisions with Earth.
 2) Dramatically reduce the cost of space mining: Weight of mining rig expected to be around 9000kg, weight of the dragonfly 15kg.
