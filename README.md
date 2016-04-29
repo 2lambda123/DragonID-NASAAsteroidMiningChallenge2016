@@ -22,7 +22,7 @@ Drawing on our team’s diverse background in design, programming, engineering, 
 
 Team Dragonfly's methods, STL files, electronics, pictures, presentation, and in in-depth disucssion on what it will take for asteroid mining this to be succesfull (economics, sensors, etc...) is presented here in full, Open Sourced (MIT License), and available for anyone to interact with, or improve.
 
-The best place to start is the The 30-second video found on [YouTube] (https://www.youtube.com/watch?v=-TvAWDsC62I). For a more in-depth view, our presentation [PPTX with video (recommended)](https://github.com/DragonID/NASAAsteroidMiningChallenge2016/blob/master/Dragonfly%20Presentation.pptx?raw=true), or [PDF](https://github.com/DragonID/NASAAsteroidMiningChallenge2016/blob/master/Dragonfly%20Presentation.pdf) is the next stop. The musical score for this project is, of course, [Below the Asteroids](https://soundcloud.com/ccpgames/eve-online-below-the-asteroids).
+The best place to start is the The 30-second video found on [YouTube] (https://link). For a more in-depth view, our presentation [PPTX (recommended)](https://github.com/DragonID/NASAAsteroidMiningChallenge2016/blob/master/Dragonfly%20Presentation.pptx?raw=true), or [PDF](https://github.com/DragonID/NASAAsteroidMiningChallenge2016/blob/master/Dragonfly%20Presentation.pdf) is the next stop. The musical score for this project is, of course, [Below the Asteroids](https://soundcloud.com/ccpgames/eve-online-below-the-asteroids).
 
 Comprehensive information is available in the detailed write-up below.
 
@@ -125,7 +125,7 @@ We have identified a key target for the first mission- the triple asteroid clust
 ![Dragonfly Render](https://github.com/DragonID/NASAAsteroidMiningChallenge2016/blob/master/Renders/Dragonfly.JPG)
 
 
-**Javelin:** An additional part of the payload is the Javelin satellite which contains a ‘telescopic’ mini-bore module that is designed to uncompact during flight, and then embed itself in the soft regolith of the asteroid. It has a few key components, namely the two (or more) stage telescopic system for size elongation, the hollow of the actual system, a set of reverse fins that serve both to anchor the stages, and to not allow the reverse motion of the module, as well as a full sensor package within the outer and inner shell. The ability to embedded itself into the soft regolith at a depth of 2, 3, even 10 meters will provide much better data about the composition of the asteroid, its mining potential, as well as scientific data. Furthermore, depending on the makeup of the system and the depth of embedding, the Javelin can be used as the anchor point(s) for an orbital control system.
+**Javelin:** An additional part of the payload is the Javelin satellite which contains a ‘telescopic’ mini-bore module that is designed to uncompact during flight, and then embed itself in the soft regolith of the asteroid. It has a few key components, namely the two (or more) stage telescopic system for size elongation (a good analogue is the system used in umbrellas), the hollow of the actual system, a set of reverse fins that serve both to anchor the stages, and to not allow the reverse motion of the module, as well as a full sensor package within the outer and inner shell. The ability to embedded itself into the soft regolith at a depth of 2, 3, even 10 meters will provide much better data about the composition of the asteroid, its mining potential, as well as scientific data. Furthermore, depending on the makeup of the system and the depth of embedding, the Javelin can be used as the anchor point(s) for an orbital control system.
 
 ![Javelin Render](https://github.com/DragonID/NASAAsteroidMiningChallenge2016/blob/master/Renders/Javelin.JPG)
 
@@ -148,3 +148,40 @@ Modular sensor package on **Javelin**. Will be put in and taken out as needed.
 4. **Javelin Ground Penetrating Radar (JGPR):** Javelin Ground Penetrating Radar (JGPR) will use focused radar in order to prospect the core of the asteroid further than the Javelin and to further prospect for materials while within the surface of the asteroid itself.
 
 ![Sensor Package](https://github.com/DragonID/NASAAsteroidMiningChallenge2016/blob/master/Renders/Sensors.JPG)
+
+#### Post Analysis Mining and Extraction
+
+In an ideal scenario, multiple Javelins will be deployed to a target at strategic locations and attached to either a solar sail or an Ion Engine. This will allow for slow, cheap orbital maneuviring. This can system cn then move the asteroid to a Lagrange Point, around the orbit of the moon, or in the case of a dangerous asteroid, nudge it out of a collision course. The same can be said for the Dragonflies which will monitor the mining rig.
+
+Once a NEMO is in position (or if the mining and refining are to be on site), the drilling or dust/layering rig will be put into position. An option for this was proposed by the [Star-Whals](https://2016.spaceappschallenge.org/challenges/solar-system/asteroid-mining/projects/ne-asteroid-mining).
+
+### Project Impact
+
+Opportunity to turn threats into profit centers. Opportunity to fuel our exapnsion to Mars, and the rest of the Solar System.
+
+1) Preventing disaster to Earth: Mining Asteroids can prevent future asteroid collisions with Earth.
+2) Dramatically reduce the cost of space mining: Weight of mining rig expected to be around 9000kg, weight of the dragonfly 15kg.
+3) Able to accurately predict composition 90 percent of the time: huge cost savings to deploy mining rigs to only most valuable sites.
+4) Dramatically Reduce the Cost of Living In Space: 
+  - Cost of transporting one pound of cargo into low earth orbit ranges from $770 to $10,000
+  - One 75 meter diameter C-type asteroid potentially has enough water to run all of the Space Missions to date.
+  - Resources in two similar sized C-type asteroids were valued by Asterank at 2.62 trillion and 168.20 billion 
+
+
+
+## Dragonfly Team
+
+Dragonfly has been created by Team Dragonfly for the NASA SpaceApps Challenge 2016 hosted at NASA John H. Glenn Research Center at Lewis Field in Cleveland, Ohio, USA. 
+
+Team Rocket members are:
+- Eugene Malinskiy [@emalinskiy] (https://twitter.com/emalinskiy)
+- Ilya Malinskiy
+- Daniel Dudley [@daniel_dudley] (https://twitter.com/daniel_dudley)
+- Jessica Ice
+- Muzamil Hasan
+- Andrea Mitofsky
+- Laimis Belzinskas
+- Brad Roskoph
+- Miranda Caudil
+- Lauren Roskoph
+- Beck Strauss
