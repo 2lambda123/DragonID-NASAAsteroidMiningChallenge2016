@@ -24,7 +24,7 @@ Team Dragonfly's methods, STL files, electronics, pictures, presentation, and in
 
 The best place to start is the 30-second video found on [YouTube] (https://link). For a more in-depth view, our presentation [PPTX (recommended)](https://github.com/DragonID/NASAAsteroidMiningChallenge2016/blob/master/Dragonfly%20Presentation.pptx?raw=true), or [PDF](https://github.com/DragonID/NASAAsteroidMiningChallenge2016/blob/master/Dragonfly%20Presentation.pdf) is the next stop. The musical score for this project is, of course, [Below the Asteroids](https://soundcloud.com/ccpgames/eve-online-below-the-asteroids).
 
-Comprehensive information on the entire projectis available in the detailed write-up below. Information on the sensors and our creation of sensor prototypes is located [here](https://github.com/DragonID/NASAAsteroidMiningChallenge2016/tree/master/Circuits). The models for the satelites are located [here](). Finally, various images from this project can be found [here]().
+Comprehensive information on the entire projectis available in the detailed write-up below. Information on the sensors and our creation of sensor prototypes is located [here](https://github.com/DragonID/NASAAsteroidMiningChallenge2016/tree/master/Circuits). The models for the satelites are located [here](https://github.com/DragonID/NASAAsteroidMiningChallenge2016/tree/master/3D%20Files). Finally, various images from this project can be found [here](https://github.com/DragonID/NASAAsteroidMiningChallenge2016/tree/master/Images).
 
     Thank you, 
     Team Dragonfly
