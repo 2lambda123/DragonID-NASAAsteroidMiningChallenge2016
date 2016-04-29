@@ -1,4 +1,4 @@
-![Dragonfly Logo](https://github.com/DragonID/NASA3DMedDevice2015/blob/master/TeamRocketLogo.png)
+![Dragonfly Logo](https://github.com/DragonID/NASAAsteroidMiningChallenge2016/blob/master/Logo/dragonfly_logo.png)
 
 # The Dragonfly
 #### Team Dragonfly's Submission for NASA SpaceApps Challenge 2016
@@ -22,7 +22,7 @@ Drawing on our team’s diverse background in design, programming, engineering, 
 
 Team Dragonfly's methods, STL files, electronics, pictures, presentation, and in in-depth disucssion on what it will take for asteroid mining this to be succesfull (economics, sensors, etc...) is presented here in full, Open Sourced (MIT License), and available for anyone to interact with, or improve.
 
-The best place to start is the The 30-second video found on [YouTube] (https://www.youtube.com/watch?v=-TvAWDsC62I). For a more in-depth view, our presentation [PPTX with video (recommended)](https://github.com/DragonID/NASA3DMedDevice2015/blob/master/C%C3%A6l%C3%A9stis%20Presentation.pptx), or [PDF](https://github.com/DragonID/NASA3DMedDevice2015/blob/master/C%C3%A6l%C3%A9stis%20Presentation.pdf) is the next stop.
+The best place to start is the The 30-second video found on [YouTube] (https://www.youtube.com/watch?v=-TvAWDsC62I). For a more in-depth view, our presentation [PPTX with video (recommended)](https://github.com/DragonID/NASAAsteroidMiningChallenge2016/blob/master/Dragonfly%20Presentation.pptx?raw=true), or [PDF](https://github.com/DragonID/NASAAsteroidMiningChallenge2016/blob/master/Dragonfly%20Presentation.pdf) is the next stop.
 
 Comprehensive information is available in the detailed write-up below.
 
